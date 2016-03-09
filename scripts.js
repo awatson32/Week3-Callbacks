@@ -5,7 +5,7 @@ $(document).ready(function() {
             if (err) {
                 alert(err);
             } else {
-                console.log('The answer is: ' + result);
+                alert('The answer is: ' + result);
             }      
         })
     });
@@ -15,7 +15,7 @@ $(document).ready(function() {
             if (err) {
                 alert(err);
             } else {
-                console.log('The answer is ' + result);
+                alert('The answer is ' + result);
             }
         })
     });
@@ -25,7 +25,7 @@ $(document).ready(function() {
             if (err) {
                 alert(err);
             } else {
-                console.log('The answer is ' + result);
+                alert('The answer is ' + result);
             }
         })
     });
@@ -35,7 +35,7 @@ $(document).ready(function() {
             if (err) {
                 alert(err);
             } else {
-                console.log('The answer is ' + result);
+                alert('The answer is ' + result);
             }
         })
     });
