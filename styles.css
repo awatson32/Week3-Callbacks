@@ -9,6 +9,10 @@ button {
     margin: 10px auto;
 }
 
+.calculator-container {
+    text-align: center;
+}
+
 .button-container {
-    width: auto;
+    padding: 5px auto;
 }
