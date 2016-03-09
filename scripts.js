@@ -1,13 +1,42 @@
 $(document).ready(function() {
     
-    $('#addNum').on('click', function add(op1, op2) {
-        davidsLib.add(function(err, result) {
+    $('#addNum').on('click', function () {
+        davidsLib.add(op1, op2, function(err, result) {
             if (err) {
                 alert(err);
             } else {
                 console.log('The answer is: ' + result);
+            }      
+        })
+    });
+    
+    $('#subtract').on('click', function() {
+        davidsLib.subtract(op1, op2, function(err, result) {
+            if (err) {
+                alert(err);
+            } else {
+                console.log('The answer is ' + result);
             }
-            
+        })
+    });
+    
+    $('#multiply').on('click', function() {
+        davidsLib.multiply(op1, op2, function(err, result) {
+            if (err) {
+                alert(err);
+            } else {
+                console.log('The answer is ' + result);
+            }
+        })
+    });
+    
+    $('#divide').on('click', function() {
+        davidsLib.divide(op1, op2, function(err, result) {
+            if (err) {
+                alert(err);
+            } else {
+                console.log('The answer is ' + result);
+            }
         })
     });
     
